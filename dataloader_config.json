@@ -1,0 +1,25 @@
+{
+  "batch_size": 20,
+  "num_workers": 0,
+  "pin_memory": true,
+  "known_diseases": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Effusion",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pneumonia",
+    "Consolidation",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Pleural_Thickening",
+    "Hernia"
+  ],
+  "ood_disease": "Pneumothorax",
+  "train_size": 74772,
+  "test_id_size": 32046,
+  "test_ood_pure_size": 2194,
+  "test_ood_mixed_size": 3108
+}
